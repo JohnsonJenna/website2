@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://live.staticflickr.com/7676/17379962345_dd28f25095_b.jpg');
+    background-position: center;
+    background-repeat: none;
+    background size: cover;
+    filter: blur(2px);
+    position: absolute;
+    z-index: -1;
+}
+
+.text {
+    font-size: 25px;
+    color: white;
+    position: absolute;
+}
+
+.home {
+    top: 10px;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}

@@ -1,0 +1,54 @@
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://ca-times.brightspotcdn.com/dims4/default/45aafd9/2147483647/strip/false/crop/2000x1539+0+0/resize/1486x1143!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc8%2F1b%2F0edfb87ffd361fd1396a33a5466e%2Fla-1558211129-qqjmj1bnjq-snap-image');
+    background-position: center;
+    background-repeat: none;
+    background size: cover;
+    filter: blur(3px);
+    position: absolute;
+    z-index: -1;
+}
+
+.text {
+    top: 150px;
+    font-size: 70px;
+    color: #95CA70;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    align-items: center;
+    font-size: 40px;
+}
+
+a:link {
+    color: #95CA70;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #95CA70;
+    background-color: transparent;
+    text-decoration: none;
+}
